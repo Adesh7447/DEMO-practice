@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.outer{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+header{
+    display: flex;
+    height: 70px;
+    padding-left: 20px;
+    background-color:  #f7f7f7;
+    align-items: center;
+    gap: 430px;
+    color: #1098ad;
+}
+
+.header-list{
+    display: flex;
+    /* gap : 20px; */
+    list-style: none;
+}
+.header-list li{
+    padding: 20px;
+}
+.header-list a{
+    text-decoration: none;
+    color: #1098ad;
+}
+
+/* MIDDLE FIRST-HALF */
+.middle{
+    padding-top: 20px;
+    display: flex;
+    gap: 30px;
+}
+.first-half h1{
+    font-size: 2.8rem;
+    color: #1098ad;
+}
+#jones-image{
+    height: 50px;
+}
+#post-image{
+    width: 800px;
+}
+.split-middle{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    padding-left: 0px;
+    gap: 20px;
+}
+.split-middle p{
+    /* text-decoration: ; */
+}
+
+/* SECOND HALF */
+.second-half{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:  #f7f7f7;
+    border-top: 5px solid #1098ad ;
+    border-bottom: 5px solid #1098ad;
+    height: 400px;
+}
+.second-half h2{
+    padding: 10px;
+}
+.second-half img{
+    width: 70px;
+}
+.first{
+    display: flex;
+    padding: 20px;
+}
+.first-first{
+    padding: 20px;
+}
+.first-first a{
+    text-decoration: none;
+    color: #1098ad;
+
+}
+
+/* BELOW-PART STYLING */
+.below-part{
+    width: 840px;
+}
+.below-part h1{
+    color: #1098ad;
+}
+.below-part p,
+.below-part h1,
+.below-part ul{
+    padding: 20px;
+}
+
+.below-part ul,
+#first-list{
+    padding-left: 100px;
+    font-size: 1.2rem;
+}
+
+p{
+    font-weight: 400;
+    font-size: 1.3rem;
+}
